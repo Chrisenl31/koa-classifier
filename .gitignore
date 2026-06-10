@@ -75,9 +75,6 @@ docs/_build/
 .pybuilder/
 target/
 
-# Jupyter Notebook
-.ipynb_checkpoints
-
 # IPython
 profile_default/
 ipython_config.py
@@ -218,6 +215,22 @@ __marimo__/
 .streamlit/secrets.toml
 
 # KOA classification project
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Virtual environment
+.env
+.venv/
+env/
+venv/
+ENV/
+
 # Dataset folders
 archive/
 dataset/
@@ -262,7 +275,7 @@ reports/
 *.npy
 *.npz
 
-# Generated images and plots
+# Generated plots and images
 *.png
 *.jpg
 *.jpeg
@@ -277,10 +290,12 @@ reports/
 *.tar
 *.gz
 
-# Private thesis documents
+# Private documents
 *.docx
 *.pdf
 
-# Local temporary files
-tmp/
-temp/
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
