@@ -216,3 +216,71 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# KOA classification project
+# Dataset folders
+archive/
+dataset/
+datasets/
+data/
+raw_data/
+primary_data/
+rsua_data/
+kaggle_data/
+
+# Google Colab / Drive folders
+/content/
+drive/
+sample_data/
+
+# Trained models and checkpoints
+*.h5
+*.keras
+*.pkl
+*.pickle
+*.joblib
+*.sav
+*.ckpt
+checkpoint/
+checkpoints/
+
+# Experiment outputs
+outputs/
+output/
+results/
+model_final/
+logs/
+runtime_logs/
+visual_outputs/
+laporan_proses/
+reports/
+
+# Generated evaluation files
+*.csv
+*.xlsx
+*.xls
+*.npy
+*.npz
+
+# Generated images and plots
+*.png
+*.jpg
+*.jpeg
+*.tiff
+*.bmp
+*.svg
+
+# Compressed output files
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# Private thesis documents
+*.docx
+*.pdf
+
+# Local temporary files
+tmp/
+temp/
