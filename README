@@ -1,6 +1,6 @@
 # Klasifikasi Tingkat Keparahan Knee Osteoarthritis (KOA)
 
-Repositori ini berisi notebook eksperimen untuk klasifikasi tingkat keparahan **Knee Osteoarthritis (KOA)** berdasarkan citra radiografi lutut. Pipeline utama menggunakan pra-pemrosesan citra, ekstraksi fitur CNN, standardisasi fitur, seleksi fitur menggunakan Genetic Algorithm (GA), serta model klasifikasi Support Vector Machine (SVM) dan Random Forest (RF).
+Repositori ini berisi notebook eksperimen untuk klasifikasi tingkat keparahan Knee Osteoarthritis (KOA) berdasarkan citra radiografi lutut. Pipeline utama menggunakan pra-pemrosesan citra, ekstraksi fitur CNN, standardisasi fitur, seleksi fitur menggunakan Genetic Algorithm (GA), serta model klasifikasi Support Vector Machine (SVM) dan Random Forest (RF).
 
 ## 1. Ringkasan Pipeline
 
